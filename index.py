@@ -9,7 +9,7 @@ from movies_scraper import search_movies, get_movie
 
 
 TOKEN = os.getenv("TOKEN")
-URL = "https://bollywood-movies-search.vercel.app"
+URL = "mongodb+srv://anujanandsingh14 :fD2SzEPWNVBeyBc @cluster0.ckqfyrr.mongodb.net/?retryWrites=true&w=majority"
 bot = Bot(TOKEN)
 
 
